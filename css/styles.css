@@ -168,6 +168,80 @@ margin: 0;
 
 text-align: center;
 }
+.btn-header {
+    border-radius: 20px;
+padding: 10px 46px;
+width: 250px;
+height: 50px;
+background: linear-gradient(81deg, #110d01 3.89%, #ffd769 46.2%, #9c7200 73.74%, #9c7200 83.05%);
+font-family: var(--font-family);
+font-weight: 400;
+font-size: 24px;
+color: #fff;
+}
+
+
+/* ------------------------------------------------------ */
+.list-card {
+   margin-right: auto;
+margin-left: auto; 
+}
+.card {
+    border: 1px solid #9c7200;
+border-radius: 20px;
+width: 290px;
+height: 515px;
+background: #0f0f0f;
+  margin-right: auto;
+margin-left: auto; 
+
+}
+.card-div {
+  display: flex;
+    flex-wrap: nowrap;
+ 
+    flex-direction: row;
+    width: 67px;
+    /* margin-left: auto; */
+margin-right: auto;
+height: 26px;  
+}
+.container-card {
+    width: 242px;
+height: 469px;
+margin-right: auto;
+margin-left: auto;
+padding-top: 24px;
+padding-bottom: 30px;
+}
+.card-logo {
+    /* margin-right: auto; */
+ font-family: var(--font-family);
+font-weight: 700;
+font-size: 10px;
+text-transform: uppercase;
+color: #777;
+ display: flex;
+flex-wrap: nowrap;
+}
+.container-data {
+margin-right: auto;
+margin-left: auto;
+}
+.title-card {
+    font-family: var(--font-family);
+font-weight: 600;
+font-size: 15px;
+text-align: center;
+color: #fff;
+}
+.img-card {
+    border-radius: 10px;
+width: 200px;
+height: 155px;
+margin-right: 21px;
+margin-left: 21px;
+}
 
 /* .advantages-titles {
     font-weight: 500;
