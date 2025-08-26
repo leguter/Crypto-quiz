@@ -1,9 +1,12 @@
+:root {
+       background-color: #1E1E1E;
+}
 body {
     /* font-family: Roboto, sans-serif; */
     color:#434455;
     /* background-color:#fff; */
     font-family: "Gothic A1", sans-serif;
-    background-color: #4D4D4D;
+    background-color: #1E1E1E;
 } 
 .container {
     /* width: 375px; */
@@ -198,6 +201,12 @@ color: #fff;
 
 
 /* ------------------------------------------------------ */
+.quiz-list {
+    display: flex;
+    flex-direction: column;
+    gap: 45px;
+    margin: 0;
+}
 .list-card {
    margin-right: auto;
 margin-left: auto; 
@@ -265,10 +274,7 @@ margin-left: 21px;
 padding-bottom: 20px;
 }
 .list-input {
-    display: flex;
-    /* flex-wrap: wrap; */
-    flex-direction: column;
-    gap: 8px;
+padding-bottom: 15px;
 }
 /* input {
     border-radius: 10px;
@@ -282,63 +288,57 @@ font-weight: 400;
 font-size: 12px;
 color: #fff;
 } */
- input[type="radio"] {
-  display: none;
-}
-.in-container {
-    /* padding-left: 10px;
-    padding-right: 10px; */
-    display: flex;
-}
 .radio-label {
   display: flex;
   align-items: center;
+  gap: 8px; /* відстань між кружечком і текстом */
   cursor: pointer;
-  font-size: 16px;
-  margin: 5px 0;
-  position: relative;
-  padding-left: 30px; /* відступ під кружечок */
+  background: #4d4d4d;
+  border-radius: 10px;
+  padding: 5px 10px;
+  width: 222px;
+  margin-top: 0;
+  margin-bottom: 5px;
+  /* margin: 5px 0; */
 
-      border-radius: 10px;
-    padding: 5px 0;
-    width: 222px;
-    /* height: 25px; */
-    background: #4d4d4d;
-    font-family: var(--font-family);
-    font-weight: 400;
-    font-size: 12px;
-    color: #fff;
-    /* justify-content: center; */
-    align-items: center;
-}
-.radio-label::before {
-  content: "";
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 10px;
-  height: 10px;
-  border-radius: 100%;
-fill: #bebebe;
-stroke-width: 1px;
-background-color: #bebebe;
+  font-family: var(--font-family);
+  font-weight: 400;
+  font-size: 12px;
+  color: #fff;
 }
 
-/* Заповнений кружечок при виборі */
-input[type="radio"]:checked + .radio-label::after {
-  content: "";
-  position: absolute;
-  left: 10px;
-  top: 50%;
-  transform: translateY(-50%);
+/* ховаємо стандартний інпут */
+.radio-label input {
+  display: none;
+}
+
+/* сам кружечок */
+.custom-radio {
   width: 10px;
   height: 10px;
-  background:  #db944b;
   border-radius: 50%;
+  background: #bebebe;
+  flex-shrink: 0; /* щоб не стискався */
 }
-.input-quiz {
-    margin-right: 10px;
+
+/* коли вибраний */
+.radio-label input:checked + .custom-radio {
+  background: #db944b;
+}
+.svg-quiz {
+    margin-left: auto;
+    margin-right: auto;
+    width: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* ------------------------------------------- */
+
+.footer-container {
+    width: 459px;
+height: 378px;
+background: linear-gradient(129deg, #4e3a00 0%, #debf6c 100%);
 }
 /* .input-quiz {
         border-radius: 10px;
