@@ -10,7 +10,7 @@ body {
 } 
 .container {
     /* width: 375px; */
-height: 705px;
+/* height: 705px; */
 margin-left: auto;
 margin-top: 0;
 margin-right: auto;
@@ -336,10 +336,131 @@ color: #fff;
 /* ------------------------------------------- */
 
 .footer-container {
-    width: 459px;
-height: 378px;
+    min-width: 320px;
+/* height: 378px; */
 background: linear-gradient(129deg, #4e3a00 0%, #debf6c 100%);
+margin-top: 28px;
+padding-bottom:28px;
 }
+.footer-div {
+    
+     display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+   width: 105px;
+    margin-left: auto;
+margin-right: auto;
+height: 26px;
+padding-top: 28px;
+padding-bottom: 21px;
+}
+.footer-logo {
+     font-family: var(--font-family);
+font-weight: 700;
+width: 105px;
+font-size: 10px;
+text-transform: uppercase;
+color: #777;
+ display: flex;
+flex-wrap: nowrap;
+align-items: center;
+
+/* justify-content: center; */
+}
+.logo-container-footer {
+font-family: var(--font-family);
+font-weight: 800;
+font-size: 16px;
+text-transform: uppercase;
+color: #000;
+ display: flex;
+    flex-wrap: wrap;
+}
+.logo-part-footer {
+ font-family: var(--font-family);
+font-weight: 800;
+font-size: 16px;
+text-transform: uppercase;
+color: #ffa600;
+}
+.text-footer {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 13px;
+margin: 0;
+padding: 0 0 5px 0;
+text-align: center;
+color: #fff;
+}
+.text-h3 {
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 11px;
+margin: 0;
+text-align: center;
+color: #fff;
+padding-top: 15px;
+}
+.text-container {
+    /* display: flex;
+    flex-direction: column;
+    gap: 21px; */
+    width:265px;
+    text-align: center;
+        margin-left: auto;
+margin-right: auto;
+padding-bottom: 40px;
+}
+.form-footer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 200px;
+            margin-left: auto;
+margin-right: auto;
+padding-bottom: 30px;
+}
+.input-footer {
+    border: 0;
+border-radius: 20px;
+padding-left: 15px;
+padding-top: 4px;
+padding-bottom: 4px;
+/* padding: 4px ; */
+width: 200px;
+/* height: 5px; */
+background: #d0c9b6;
+font-family: var(--font-family);
+font-weight: 300;
+font-size: 10px;
+color: #202020;
+/* transform: rotate(90deg); */
+}
+.input-footer::placeholder {
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 10px;
+/* padding-left: 15px; */
+color: #202020;
+}
+.btn-submit {
+    border-radius: 10px;
+padding: 5px 22px;
+width: 200px;
+height: 30px;
+background: linear-gradient(56deg, #0d0d0d 15.35%, #4c4c4c 100%);
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 16px;
+color: #d9d9d9;
+display: flex;
+    margin-left: auto;
+margin-right: auto;
+/* margin-bottom: 28px; */
+}
+        /* margin-left: auto;
+margin-right: auto;
+} */
 /* .input-quiz {
         border-radius: 10px;
     padding: 5px 10px;
