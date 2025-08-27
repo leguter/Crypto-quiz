@@ -648,20 +648,114 @@ border-radius: 20px;
 width: 1214px;
 height: 807px;
 display: flex;
+margin-right: auto;
+margin-left: auto;
+padding-bottom: 0;
    }
    .pc-version-footer {
     border-radius: 20px 0 0 20px;
 width: 627px;
 height: 807px;
    }
-   .form-footer {
-    border: 1px solid #9c7200;
-border-radius: 20px;
 
+   .footer-div {
+    margin-left: 0;
+    margin-bottom: 44px;
+    padding-bottom: 0;
+     height: 153px;
+     padding-left: 25px;
    }
    .container-form {
-    width: 1214px;
+    width: 627px;
 height: 807px;
 background: #b4a478;
+border: 1px solid #9c7200;
+  border-top-right-radius: 20px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 20px;
+   }
+  
+   .logo-part-footer  {
+    font-family: var(--font-family);
+font-weight: 800;
+font-size: 48px;
+text-transform: uppercase;
+color: #ffa600;
+   }
+.logo-container-footer {
+    font-family: var(--font-family);
+font-weight: 800;
+font-size: 48px;
+text-transform: uppercase;
+color: #000;
+/* padding-bottom: 44px; */
+}
+.btc-logo {
+    width: 128px;
+height: 127px;
+}
+.footer-logo {
+    width: 348px;
+height: 152px;
+
+}
+.text-container {
+    width: 537px;
+height: 467px;
+padding: 0;
+}
+.text-footer {
+    font-family: var(--font-family);
+font-weight: 500;
+font-size: 36px;
+color: #fff;
+padding-bottom: 0;
+/* padding-bottom: 63px; */
+}
+.text-h3 {
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 32px;
+color: #fff;
+padding: 0;
+}
+.footer-h2-container {
+    padding-bottom: 62px;
+    display: flex;
+    gap:15px;
+    flex-direction: column;
+}
+.input-footer {
+    border-radius: 20px;
+padding: 12px 44px 12px 40px;
+width: 370px;
+height: 43px;
+font-family: var(--font-family);
+font-weight: 300;
+font-size: 30px;
+color: #202020;
+}
+.input-footer::placeholder {
+    font-family: var(--font-family);
+font-weight: 300;
+font-size: 30px;
+color: #202020;
+}
+   .form-footer {
+   padding-top: 226px;
+  width: 455px;
+  gap: 30px;
+  padding-bottom: 65px;
+   }
+   .btn-submit {
+    border-radius: 20px;
+padding: 12px 49px;
+width: 445px;
+height: 80px;
+font-family: var(--font-family);
+font-weight: 500;
+font-size: 36px;
+color: #d9d9d9;
    }
 }
